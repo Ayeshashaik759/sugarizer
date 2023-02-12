@@ -83,12 +83,12 @@ p {
 	vertical-align: bottom;
 }
 
-div#Score {
+#Score {
 	position: absolute;
-	right: 10%;
-	top: 15%;
+	top: 40%;
+	right: 33vw;
 	font-weight: bold;
-	font-size: 4vh;
+	font-size: 60px;
 }
 
 @media only screen and (max-width: 1040px) {
@@ -102,6 +102,9 @@ div#Score {
 	}
 	#fullscreen-button {
 		display: none;
+	}
+	#Score{
+		font-size: 8vw;
 	}
 }
 @media only screen and (max-width: 540px) {
@@ -117,14 +120,16 @@ div#Score {
 	#main-toolbar .splitbar {
 		display: none;
 	}
-	div#Score{
-		top:40%;
-		right:25%;
+	#Score {
+			font-size: 8vw;
 	}
 }
 @media only screen and (max-width: 340px) {
 	#bg-button {
 		display: none;
+	}
+	#Score {
+			font-size: 8vw;
 	}
 }
 

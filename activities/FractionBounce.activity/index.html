@@ -117,13 +117,13 @@
 			<slope-template ref="slopecanvas" v-bind:height="height" v-bind:parts="parts" v-bind:radius="radius" v-bind:cx="cx"
 						 v-bind:answer="answer" v-bind:correct-answers="correctAnswers" v-bind:mode="mode" />
 		</div>
-        <div id="Score">score:0/10</div>
+        <div id="Score"></div>
 		<sugar-activity ref="SugarActivity" v-on:initialized="initialized"></sugar-activity>
 		<sugar-journal ref="SugarJournal" v-on:journal-data-loaded="onJournalDataLoaded" v-on:journal-load-error="onJournalLoadError"></sugar-journal>
 		<sugar-localization ref="SugarL10n" v-on:localized="localized"></sugar-localization>
 		<sugar-tutorial ref="SugarTutorial"></sugar-tutorial>
 		<sugar-device ref="SugarDevice" v-on:acceleration-callback="accelerationChanged"></sugar-device>
-	</div>
+	</div> 
 
 	<script src="js/slope-template.js"></script>
 	<script src="js/components/SugarActivity.js"></script>

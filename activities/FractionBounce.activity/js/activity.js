@@ -5,8 +5,8 @@ requirejs.config({
 		activity: "../js"
 	}
 });
-var score = 0;
-var count = 0;
+// var score = 0;
+// var count = 0;
 // Vue main app
 let app = new Vue({
 	el: '#app',
@@ -32,6 +32,7 @@ let app = new Vue({
 		traction: 0.1,
 		paused: true,
 		onSlope: true,
+		SugarL10n: null,
 
 		frameInterval: 20,
 		launchDelay: 1000,
@@ -94,7 +95,9 @@ let app = new Vue({
 
 		//DEBUG
 		acceleration: {},
-		accelerationInterval: null
+		accelerationInterval: null,
+		score : 0,
+        count : 0
 	},
 
 	computed: {
@@ -124,6 +127,8 @@ let app = new Vue({
 		if(this.$refs.SugarDevice.isMobile()) {
 			this.$refs.SugarDevice.watchAcceleration(2*this.frameInterval);
 		}
+
+		this.SugarL10n = this.$refs.SugarL10n;
 	},
 
 	methods: {
@@ -226,10 +231,10 @@ let app = new Vue({
 			this.paused = !this.paused;
 			if (!this.paused) {
 				this.launch();
-				if(count==30){
-					score = 0;
-					count = 0;
-			        Score.innerHTML = "score: 0/10";	
+				if(this.count==30){
+					this.score = 0;
+					this.count = 0;	
+					Score.innerHTML = "";
 				}
 			}
 			document.getElementById('slopeCanvas').removeEventListener('click', this.startGame);
@@ -301,15 +306,15 @@ let app = new Vue({
 				slopeCanvas.removeEventListener("mousedown", this.onTouchStart);
 				this.onTouchEnd();
 				let result = this.$refs.slopecanvas.checkAnswer();
-				count++;
+				this.count++;
 				if (result == this.answer) {
 					this.successSound.play();
-					score++;
+					this.score++;
 				} else {
 					this.failSound.play();
 				}
-				if (count < 30) {
-					Score.innerHTML = "score: " + Math.round(score / 3) + "/10";
+				if (this.count==30) {
+					Score.innerHTML = this.SugarL10n.get("Score")+" "+ Math.round(this.score / 3) + "/10";
 				}
 				this.onSlope = true;
 				if (this.vy < 0.5) {
