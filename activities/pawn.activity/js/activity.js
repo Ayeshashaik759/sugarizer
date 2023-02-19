@@ -36,6 +36,7 @@ define(["sugar-web/activity/activity", "sugar-web/env", "sugar-web/graphics/icon
                 });
             }
 		});
+		
 		// Launch tutorial
 		document.getElementById("help-button").addEventListener('click', function(e) {
 			tutorial.start();
