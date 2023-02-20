@@ -1,4 +1,5 @@
-[
+[	
+	{"id": "org.sugarlabs.Pawn", "name": "Pawn", "version": 1, "directory": "activities/Pawn.activity", "icon": "activity/activity-icon.svg", "favorite": true, "activityId": null},
 	{"id": "org.olpcfrance.XmasLights", "name": "Xmas Lights", "version": 1, "directory": "activities/XmasLights.activity", "icon": "activity/activity-icon.svg", "favorite": false, "activityId": null},
 	{"id": "org.olpcfrance.DollarStreet", "name": "Dollar Street", "version": 1, "directory": "activities/DollarStreet.activity", "icon": "activity/activity-icon.svg", "favorite": true, "activityId": null},
 	{"id": "org.sugarlabs.Tangram", "name": "Tangram", "version": 1, "directory": "activities/Tangram.activity", "icon": "activity/activity-icon.svg", "favorite": true, "activityId": null},
@@ -55,7 +56,5 @@
 	{"id": "org.sugarlabs.Write", "name": "Write", "version": 1, "directory": "activities/Write.activity", "icon": "activity/activity-icon.svg", "favorite": true, "activityId": null},
 	{"id": "org.sugarlabs.Planets", "name": "Planets", "version": 1, "directory": "activities/Planets.activity", "icon": "activity/activity-icon.svg", "favorite": true, "activityId": null},
 	{"id": "org.sugarlabs.Implode", "name": "Implode", "version": 1, "directory": "activities/Implode.activity", "icon": "activity/activity-icon.svg", "favorite": true, "activityId": null},
-	{"id": "org.sugarlabs.Measure", "name": "Measure", "version": 1, "directory": "activities/Measure.activity", "icon": "activity/activity-icon.svg", "favorite": true, "activityId": null},
-	{"id": "org.sugarlabs.Pawn", "name": "Pawn", "version": 1, "directory": "activities/Pawn.activity", "icon": "activity/activity-icon.svg", "favorite": true, "activityId": null}
-
+	{"id": "org.sugarlabs.Measure", "name": "Measure", "version": 1, "directory": "activities/Measure.activity", "icon": "activity/activity-icon.svg", "favorite": true, "activityId": null}
 ]
