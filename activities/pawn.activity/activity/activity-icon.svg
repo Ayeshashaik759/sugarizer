@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
-	<!ENTITY stroke_color "#010101">
-	<!ENTITY fill_color "#FFFFFF">
-]>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -54,7 +50,7 @@
   </g>
   <g
      id="g4230"
-     style="fill:&stroke_color;stroke:&stroke_color;"
+     style="fill:&stroke_color;;stroke:&stroke_color;"
      transform="matrix(0.39971901,0,0,0.39971901,6.9463181,6.2146783)">
     <path
        d="M 61.928896,19.451233 A 13.23274,13.274994 0 0 1 48.853548,32.725288 13.23274,13.274994 0 0 1 35.467159,19.767 13.23274,13.274994 0 0 1 48.224068,6.1846896 13.23274,13.274994 0 0 1 61.913922,18.819877 l -13.217766,0.631356 z"
@@ -76,11 +72,11 @@
        inkscape:connector-curvature="0"
        id="path4226"
        d="m 41.894649,48.742613 -0.237029,3.25914 -0.770342,3.318398 -0.711085,2.548055 -1.00737,2.429541 -1.066628,2.42954 -1.718456,3.318397 -2.903598,4.859083 -6.51828,8.77005 43.257679,0.05926 -3.436912,-4.562797 -2.073998,-2.962855 -2.370283,-3.792454 -2.311027,-3.970225 -2.192512,-4.859082 -1.2444,-3.614683 -0.829599,-3.555426 -0.355542,-3.496168 z"
-       style="fill:&stroke_color;fill-rule:evenodd;stroke:&stroke_color;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:&stroke_color;;fill-rule:evenodd;stroke:&stroke_color;;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
        inkscape:connector-curvature="0"
        id="path4228"
        d="m 22.843446,85.487348 -1.969351,0.0838 -1.340835,0.335209 -0.963725,0.628516 -0.502814,0.75422 -0.209505,1.089428 -0.167604,1.382736 0.0838,4.692922 61.846014,0.0838 -0.0838,-5.824252 -0.293308,-1.340835 -0.419011,-0.838022 -0.712319,-0.586615 -0.712318,-0.335209 -0.628517,-0.0838 z"
-       style="fill:&stroke_color;fill-rule:evenodd;stroke:&stroke_color;;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="fill:&stroke_color;;fill-rule:evenodd;stroke:&stroke_color;;stroke-width:0.80000001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
 </svg>
